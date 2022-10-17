@@ -1,0 +1,13 @@
+<h1>Kittens</h1>
+<div class="section-container">
+        <h2>List of kittens:</h2>
+    <ul>
+        <% @kittens.each do |kitten| %>
+            <li>
+                <%= link_to kitten.name, kitten_path(kitten) %>
+            </li>
+        <% end %>
+    </ul>
+</div>
+
+<%= link_to "New kitten", new_kitten_path %>

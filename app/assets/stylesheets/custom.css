@@ -1,0 +1,44 @@
+body {
+    padding-bottom: 1rem;
+}
+
+h1, h2, h3 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+form, .section-container {
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: var(--accent-bg);;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form select {
+    min-width: 40%;
+}
+
+h4 {
+    margin: 0;
+}
+
+.notice {
+    border: 1px solid #89a48d;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #b3d7b9;
+}
+
+.alert {
+    border: 1px solid #a48989;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #f19d9d;
+}

@@ -1,0 +1,6 @@
+<div class="section-container">
+    <%= render @kitten %>
+</div>
+
+<%= button_to "Edit kitten", edit_kitten_path(@kitten), method: :get %>
+<%= button_to "Delete entry", kitten_path(@kitten), method: :delete %>
